@@ -9,7 +9,11 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""<b>👋🏻 Hi {message.from_user.first_name}!</b>
 
-I am Calls Music, an open-source bot that lets you play music in your groups.
+ᴇᴜᴘʜᴏʀɪᴀ  ᴍᴜsɪᴄ  ᴀᴅᴀʟᴀʜ  ʙᴏᴛ   ᴍᴜsɪᴄ  ᴄᴀʟʟ  ɢʀᴜᴘ👑!
+ᴍᴏʜᴏɴ  ᴍᴀᴋʟᴜᴍ  ᴊɪᴋᴀ  ᴀᴅᴀ  ᴍᴀsᴀʟᴀʜ  ᴘᴀᴅᴀ  ᴋᴜᴀʟɪᴛᴀs  ᴍᴜsɪᴋ.
+Jika ingin menggunakan cukup ijin ke owner hehe
+Owner ganteng : Molana
+Support Channel Owner Ya @ruangpublikk
 
 Use the buttons below to know more about me.""",
         reply_markup=InlineKeyboardMarkup(
@@ -21,10 +25,13 @@ Use the buttons below to know more about me.""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/callsmusicchat"
+                        "Cara Pakai", url="https://telegra.ph/ᴏ-ʟ-ᴀ-ɴ-ᴀ-03-14"
                     ),
                     InlineKeyboardButton(
-                        "Channel 🔈", url="https://t.me/callsmusic"
+                        "Owner", url="https://telegram.me/betterthaanhecan"
+                    ),
+                    InlineKeyboardButton(
+                        "Channel owner", url="https://telegram.me/ruangpublikk"
                     )
                 ]
             ]
